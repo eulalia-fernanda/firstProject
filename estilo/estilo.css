@@ -1,0 +1,333 @@
+main{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.perfil{
+    width: 60px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+}
+
+.ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 8em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vh;
+    
+    color: rgb(146, 141, 141)
+}
+
+header {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color:black;
+    text-align: center;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.categoria-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.categoria-laranja {
+    color: hsl(16, 100%, 64%);
+    font-weight: bold;
+}
+
+
+.atributo {
+    margin-right: 8px;  
+    width: 25px;
+
+}
+
+    
+
+aside {
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.TextAspas{
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+
+.Aspas{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.ContainerInformativo{
+    margin-top: 20px;
+}
+ol {
+    counter-reset:li; /* Inicia o contador */      
+    margin-left:0; /* Remove margin padrão */      
+    padding-left:0; /* Remove padding padrão */  
+  } 
+  
+  ol > li {      
+    position:relative; /* Cria contexto de posicionamento */      
+    margin:0 0 6px 2em; /* margem para abrir espaço para a numeração */      
+    padding:4px 8px; /* Espaçamento em volta do conteúdo */      
+    list-style:none; /* retira a numeração padrãao (o marcador da lista) */      
+    background:#ffffff;
+  }  
+  
+  ol > li:before {      
+    content:counter(li); /* Define um contador como conteúdo */      
+    counter-increment:li; /* Incrementa o contador de 1 */      
+    /* Posicionamento e estilização do número */     
+    position:absolute;      
+    top:-2px;      
+    left:-2em;      
+    -moz-box-sizing:border-box;     
+    -webkit-box-sizing:border-box;      
+    box-sizing:border-box;      
+    width:2em;      /* Espaçamento entre número e texto em navegadores que suportam conteúdo gerado, ams não o posicionam(Camino 2 por exemplo) */      
+    margin-right:8px;      
+    padding:4px;      
+    border-top:2px solid rgb(255, 255, 255);
+    color:rgb(236, 158, 106);      
+    background:rgb(253, 253, 253);      
+    font-weight:bold;      
+    font-family:"Helvetica Neue", Arial, sans-serif;      
+    text-align:center;  
+   }  
+   
+   li ol,  li ul {margin-top:6px;}  
+   ol ol li:last-child {margin-bottom:0;}
+
+
+   ul {
+    counter-reset:li; /* Inicia o contador */      
+    margin-left:0; /* Remove margin padrão */      
+    padding-left:0; /* Remove padding padrão */  
+  } 
+  
+  ul > li {      
+    position:relative; /* Cria contexto de posicionamento */      
+    margin:0 0 6px 2em; /* margem para abrir espaço para a numeração */      
+    padding:4px 8px; /* Espaçamento em volta do conteúdo */      
+    list-style:none; /* retira a numeração padrãao (o marcador da lista) */
+    background:#ffffff;
+  }
+    li::before {
+       content: "•"; 
+       color: rgb(236, 153, 75);
+       background: transparent;    
+  }  
+  
+  ul > li:before {      
+   /* content:counter(li);  Define um contador como conteúdo */      
+   /* counter-increment:li;  Incrementa o contador de 1 */      
+    /* Posicionamento e estilização do número */     
+    position:absolute;      
+    top:-2px;      
+    left:-2em;      
+    -moz-box-sizing:border-box;     
+    -webkit-box-sizing:border-box;      
+    box-sizing:border-box;      
+    width:2em;      /* Espaçamento entre número e texto em navegadores que suportam conteúdo gerado, ams não o posicionam(Camino 2 por exemplo) */      
+    margin-right:8px;      
+    padding:4px;      
+    border-top:2px solid rgb(255, 255, 255);
+    color:rgb(236, 158, 106);      
+    font-weight:bold;      
+    font-family:"Helvetica Neue", Arial, sans-serif;      
+    text-align:center;  
+   }  
+   
+   li ul,  li ol {margin-top:6px;}  
+   ul ul li:last-child {margin-bottom:0;}
+
+
+
+.Book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    padding: 40px;
+}
+
+.BookCentro{
+    display: flex;
+    width: 300px;
+}
+
+.ContainerBox {
+    width: 100%;
+    height: 300px;
+    margin: 64px 0;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+    font-size: 22px;
+
+    background: white;
+}
+
+.ConjuntoDeItens{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    
+
+    
+}
+
+.Items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right:15px;
+    font-size: 15px;
+}
+
+.ImgItems{
+    font-size: 15px;
+    margin-right:15px;
+}
+
+.ImgClap{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+}
+
+.FotoPerfil{
+    display: flex;
+    margin: 0 0 0 auto;
+    margin-top: -50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.ContainerTag {
+    margin: 60px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ContainerTagItems {
+    max-width: 50%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.TagItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 16px;
+}
+
+.tags {
+    min-width: 48px;
+    height: 24px;
+    padding: 0 8px;
+    margin: 8px;
+    border-radius: 16px;
+    border: 0.1rem solid orange;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptags {
+    font-size: 12px;
+    color: orange;
+    font-weight: 600;
+}
+.ContainerSocial{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerSocialItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width:30px;
+    height: 28px;
+    
+}
+
+.ContainerCurtir{
+    margin: 0px 20px 0px 25px;
+}
+
+.ContainerSocialItemsFacebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 20px;
+    height: 26px;
+}
+
+
+.ContainerSocialItemsEmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 30px;
+    height: 20px;
+    
+}
+
+.ContainerImgCurtir{
+
+    display: flex;
+    width: 40px;
+}
